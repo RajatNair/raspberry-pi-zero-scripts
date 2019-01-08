@@ -1,5 +1,5 @@
 #!/bin/bash
-### Script to install and setup Sonarr on Raspberry Pi Zero  running Raspbian
+### Script to install and setup Sonarr on Raspberry Pi Zero running Raspbian 9 (stretch)
 ### maintained by Aunlead
 
 # Run updates
@@ -19,7 +19,7 @@ After=syslog.target network.target
 User=aunlead
 Group=aunlead
 Type=simple
-ExecStart=/usr/bin/mono /opt/NzbDrone/NzbDrone.exe -nobrowser
+ExecStart=/usr/bin/mono /opt/NzbDrone/NzbDrone.exe -nobrowser -data=/home/aunlead/sonarr
 TimeoutStopSec=20
 KillMode=process
 Restart=on-failure
