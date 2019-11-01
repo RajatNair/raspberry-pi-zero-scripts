@@ -5,10 +5,15 @@
 ---
 
 ### Initial Setup
-###### 1. SSH to odroid-ip:22 (Default username is _pi_ and password _raspberry_). Additional info here - https://www.raspberrypi.org/documentation/remote-access/ssh/unix.md
+###### 1. SSH to odroid-ip:22 (Default username is _pi_ and password _raspberry_). 
+Additional info here - https://www.raspberrypi.org/documentation/remote-access/ssh/unix.md
+
 ###### 2. Change pi password from default
+
 ###### 3. Change root user password from default
+
 ###### 3. Update Raspbian
+
 ###### 4. Change default SSH port and disable root login
 ```shell
 ## Lockdown - changing default ports
