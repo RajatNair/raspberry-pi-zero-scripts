@@ -1,6 +1,3 @@
-# raspberry-pi-zero-scripts
-Setup scripts for 
-
 ## Collection of BASH scripts for Raspberry Pi Zero which will -
 ###### 1. Harden Raspbian
 ###### 2. Install scripts to setup specific softwares
